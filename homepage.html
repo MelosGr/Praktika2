@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballkan table</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <img id="logo1" src="image2/logo2.png" alt="">
+
+        <nav>
+            <ul id="defaultbar"> 
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <ul class="sidebar"> 
+                <li id="l2" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="43px" viewBox="0 -960 960 960" width="43px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+            <li id="l1" onclick="showSidebar()">
+                <a id="linkim" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="43px" viewBox="0 -960 960 960" width="43px" fill="white">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </a>
+            </li>
+        </div>
+
+        <div id="main-page">
+            <div id="side1">
+                <p id="p1">Ballkan table</p>
+            <p id="p2">is a vibrant dining destination that celebrates the rich flavors and heritage of Balkan cuisine. 
+                Our menu combines traditional recipes with a modern twist, offering a taste of authentic dishes</p>
+            </div>
+
+            <div id="side2">
+                <img src="image2/rotate-removebg-preview.png" class="rotating-image">
+            </div>
+            
+        </div>
+
+        <!--Footer-->
+        <div id="footer">
+          
+            <div id="footer-section1">
+                <img id="logo2" src="image2/logo2.png" alt="">
+
+                <p id="pf">
+                    <span id="sf">Ballkan Table</span> is an inviting restaurant that celebrates the rich and diverse culinary traditions of the Balkan region, 
+                    with a particular focus on authentic Albanian dishes.
+                </p>
+            </div>
+
+            <div id="footer-section2">
+                    <a id="a1" href="homepage.html">Home</a>
+                    <hr id="hr1">
+                   <a id="a2" href="menu.html">Menu</a>
+                    <hr id="hr2">
+                    <a id="a3" href="reservation.html">Reservation</a>
+                    <hr id="hr3">
+                    <a id="a4" href="contact.html">Contact Us</a>
+            </div>
+
+             <div id="footer-section3">
+                <p id="pf1">OPENING HOURS</p>
+
+                <p id="pf2">Monday  10:00 – 23:00</p>
+                <p id="pf2">Tuesday  10:00 – 23:00</p>
+                <p id="pf2">Wednesday   10:00 – 23:00</p>
+                <p id="pf2">Thursday  10:00 – 23:00</p>
+                <p id="pf2">Friday  10:00 – 23:00</p>
+                <p id="pf2">Saturday   11:00 – 00:00</p>
+                <p id="pf2">Sunday  11:00 – 00:00</p>
+            </div>
+
+            <div id="footer-section4">
+                <p id="pf3"><img src="image2/tel.svg" alt="">  +383 45 789 012</p>
+                <p id="pf3"><img src="image2/tel.svg" alt="">  +383 44 957 624</p>
+
+                <p id="pf4"><img src="image2/email.svg" alt="">  info@BallkanTable.co.ks</p>
+
+                <p id="pf5"><img src="image2/location.svg" alt="">Rr. Ahmet Krasniqi Prishtine</p>
+
+                <hr id="hr4" >
+
+                <p id="pf6">All content on this websiteis the property of <span id="s6"><i>Ballkan Table</i></span> 
+                    and protected by copyright</p>
+
+                <div id="social-media">
+                    <a href="https://instagram.com/" target="_blank"><p id="p6"><i class="fab fa-instagram"></i></p></a>
+                <a href="https://www.facebook.com/" target="_blank"><p id="p7"><i class="fab fa-facebook"></i></p></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><p id="p7"><i class="fab fa-twitter"></i></p></a>
+                <a href="https://www.linkedin.com/" target="_blank"><p id="p7"><i class="fab fa-linkedin"></i></p></a> 
+                </div> 
+                
+            </div>  
+           
+        </div>
+
+        
+        <script>
+function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    }
+
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    }
+        </script>
+</body>
+</html>
